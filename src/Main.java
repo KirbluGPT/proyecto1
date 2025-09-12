@@ -29,8 +29,21 @@ public class Main {
                 } else {
                     System.out.println("Incorrecto. Esta accion tendra consecuencias.");
                     break;
-                }
 
+                }
+            }
+
+            case 3: {
+                sc.nextLine();
+                System.out.println("¿9+10?");
+                int ans = sc.nextInt();
+
+                if (ans == 21){
+                    System.out.println("You stupid.");
+                }
+                else {
+                    System.out.println("No le sabes.");
+                }
             }
         }
     }
